@@ -7,11 +7,11 @@
   display: flex;
   margin-left: 85px;
 
-  & .item + .item {
+  .item + .item {
     margin-left: 50px;
   }
 
-  & .links {
+  .links {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -23,16 +23,16 @@
     transition: $transition;
   }
 
-  & .links:hover,
-  & .links:focus {
+  .links:hover,
+  .links:focus {
     color: $colorAccent;
   }
 
-  & .underline {
+  .underline {
     position: relative;
   }
 
-  & .underline::after {
+  .underline::after {
     content: "";
     display: block;
     position: absolute;
@@ -46,16 +46,16 @@
     transition: $transition;
   }
 
-  & .underline:hover::after {
+  .underline:hover::after {
     transform: scaleX(1);
   }
 
-  & .current {
+  .current {
     position: relative;
     color: $colorAccent;
   }
 
-  & .current::after {
+  .current::after {
     content: "";
     display: block;
     position: absolute;

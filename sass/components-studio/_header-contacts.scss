@@ -2,16 +2,16 @@
   display: flex;
   margin-left: auto;
 
-  & .item {
+  .item {
     margin-left: 30px;
     display: inline-flex;
   }
 
-  & .item:nth-child(1) {
+  .item:nth-child(1) {
     margin-left: 0;
   }
 
-  & .links {
+  .links {
     display: inline-flex;
     align-items: center;
 
@@ -23,8 +23,8 @@
     transition: $transition;
   }
 
-  & .links:hover,
-  & .links:focus {
+  .links:hover,
+  .links:focus {
     color: $colorAccent;
     fill: $colorAccent;
   }

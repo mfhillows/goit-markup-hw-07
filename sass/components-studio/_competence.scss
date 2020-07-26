@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  & .item {
+.item {
     position: relative;
 
     width: calc((100% - 60px) / 3);
@@ -32,7 +32,7 @@
     margin-bottom: 0;
   }
 
-  & .item:nth-child(3n) {
+.item:nth-child(3n) {
     margin-right: 0;
   }
 }

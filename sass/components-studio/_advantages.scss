@@ -11,7 +11,7 @@
     background-color: $colorThirdBody;
   }
 
-  & .smalltitle {
+  .smalltitle {
     padding-top: 30px;
     padding-bottom: 10px;
     @include Fonts(700, 14px, 1.14);
@@ -25,12 +25,12 @@
   display: flex;
   flex-wrap: wrap;
 
-  & .item {
+  .item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
   }
 
-  & .item:nth-child(4n) {
+  .item:nth-child(4n) {
     margin-right: 0;
   }
 }

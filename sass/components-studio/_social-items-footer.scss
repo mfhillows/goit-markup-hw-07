@@ -3,11 +3,11 @@
   justify-content: center;
   padding-top: 20px;
 
-  & .item {
+.item {
     margin-right: 10px;
   }
 
-  & .item:last-child {
+.item:last-child {
     margin-right: 0;
   }
 }
